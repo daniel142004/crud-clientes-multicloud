@@ -14,16 +14,14 @@ Aplicación web CRUD para la gestión de clientes de **Clientes Digitales SpA**,
 
 
 Usuarios
-│
-▼
+    |
 Application Load Balancer (AWS)
-│              │
-▼              ▼
-EC2 Flask 1   EC2 Flask 2
-│              │
-└──────┬───────┘
-       ▼
-Supabase PostgreSQL (HA)
+    |                   |
+EC2 Flask 1         EC2 Flask 2
+    |                   |
+    +-------------------+
+              |
+    Supabase PostgreSQL (HA)
 
 ---
 
