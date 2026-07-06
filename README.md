@@ -64,7 +64,7 @@ crud-clientes-multicloud/
 
 ## Despliegue en AWS Academy
 
-1. Lanzar instancia EC2 con **Amazon Linux 2023**, tipo `t2.micro`.
+1. Lanzar instancia EC2 con **Amazon Linux 2023**, tipo `t3.micro`.
 2. Asociar Security Group con puerto **80 abierto** (HTTP).
 3. En **"Datos de usuario"**, pegar el script `user_data.sh` con la variable `DB_URI` configurada.
 4. La instancia instala dependencias, crea el entorno virtual y levanta Flask en el puerto 80 automáticamente.
