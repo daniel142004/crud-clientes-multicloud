@@ -12,7 +12,7 @@ Aplicación web CRUD para la gestión de clientes de **Clientes Digitales SpA**,
 - Supabase como proveedor de base de datos PostgreSQL gestionada con alta disponibilidad
 - La contraseña de conexión se inyecta como variable de entorno (`DB_URI`) a través del User Data script — no está hardcodeada en el código
 
-Diagrama de la Arquitectura:
+
 Usuarios
 │
 ▼
