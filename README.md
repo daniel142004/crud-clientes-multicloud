@@ -13,15 +13,6 @@ Aplicación web CRUD para la gestión de clientes de **Clientes Digitales SpA**,
 - La contraseña de conexión se inyecta como variable de entorno (`DB_URI`) a través del User Data script — no está hardcodeada en el código
 
 
-Usuarios
-    |
-Application Load Balancer (AWS)
-    |                   |
-EC2 Flask 1         EC2 Flask 2
-    |                   |
-    +-------------------+
-              |
-    Supabase PostgreSQL (HA)
 
 ---
 
