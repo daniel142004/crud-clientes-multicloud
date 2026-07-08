@@ -52,17 +52,6 @@ Tabla: `clientes`
 
 ---
 
-## Estructura del repositorio
-crud-clientes-multicloud/
-├── app.py               # Aplicación Flask con operaciones CRUD
-├── Dockerfile           # Imagen Docker basada en python:3.11-alpine
-├── templates/
-│   └── index.html       # Interfaz web con Bootstrap 5
-├── .gitignore           # Excluye .env con credenciales
-└── README.md
-
----
-
 ## Despliegue en AWS Academy
 
 1. Construir la imagen Docker: `docker build -t crud-clientes .`
